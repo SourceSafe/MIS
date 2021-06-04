@@ -1,0 +1,28 @@
+.chromeButton {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition-duration: 1s;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: darkgray;
+  border-style: solid;
+  padding-bottom: 0px;
+  margin-bottom: -3px;
+  margin-right: 5px;
+  margin-top: 1px;
+  padding: 1px;
+}
+
+.chromeButton:hover {
+  background-color: rgb(141, 139, 152);
+}
+
+.alignLeft {
+  float: left;
+  margin-left: 0px;
+}
+
+.containerClass {
+  display: flex;
+  flex-direction: column;
+}

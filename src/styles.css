@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.chromeTitleBar {
+  background-color: rgb(174, 187, 196);
+}
+
+.chromeWorkspaceEditButton {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.chromeWorkspaceEditButton:hover {
+  background-color: rgb(174, 187, 196);
+}
+
+.chromeWorkspaceEditButtonOn {
+  background-color: rgb(174, 187, 196);
+}
+
+.chromeWorkspaceEditButtonOff {
+  background-color: rgb(255, 255, 255);
+}
+
+.grid-wrapper {
+  height: 100%;
+  padding-top: 26px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,42 @@
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+}
+
+.menu {
+  background: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+
+  right: 100px;
+  top: 25px;
+
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+}
+
+button {
+  background: #ffffff;
+  border: none;
+}
+
+.multiSelectItem:hover {
+  background-color: lightgray;
+}
+
+.linkItemButton {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: darkgray;
+  border-style: solid;
+  padding-bottom: 0px;
+  margin-bottom: -3px;
+  margin-right: 5px;
+  margin-top: 1px;
+  padding: 1px;
+}
